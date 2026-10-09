@@ -1,2 +1,30 @@
 
 /* Your CSS Code here. */
+.main-container{
+    display: flex;
+    justify-content: center;
+}
+
+
+.main-container > div{
+    width: 350px;
+    height: 400px;
+}
+
+.moviePic{
+    width: 350px;
+    height: 400px;
+    opacity: 97%;
+}
+
+p{
+    width: 600px;
+}
+
+.movieDetail{
+     position: absolute;
+     margin-top: 430px;
+     text-align: center;
+     font-size: large;
+     
+}
